@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <!-- set the character set -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- first step to a responsive site -->
+    <title>Animal Filter</title>
+
+    <!-- FONT AWESOME -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+
+    <!-- Your styles should be called here -->
+    <link href="style.css" rel="stylesheet" />
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      	  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      	  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      	<![endif]-->
+  </head>
+
+  <body>
+    <!-- YOUR CONTENT GOES HERE -->
+    <div class="container">
+      <h1>Animal Kingdom</h1>
+      <p>Use the dropdown to filter the animals</p>
+      <div>
+        <select class="filter">
+                    <option value="item">Filter...</option>
+                    <option value="reptile">Reptile</option>
+                    <option value="mammal">Mammal</option>
+                    <option value="fish">Fish</option>
+                </select>
+      </div>
+      <div class="item active reptile">
+        <img src="img/alligator.jpg" />
+        <h3>Alligator</h3>
+      </div>
+
+      <div class="item active reptile">
+        <img src="img/bird.jpg" />
+        <h3>Bird</h3>
+      </div>
+
+      <div class="item active mammal">
+        <img src="img/bunny.jpg" />
+        <h3>Bunny</h3>
+      </div>
+
+      <div class="item active mammal">
+        <img src="img/elephant.jpg" />
+        <h3>Elephant</h3>
+      </div>
+
+      <div class="item active mammal">
+        <img src="img/fox.jpg" />
+        <h3>Fox</h3>
+      </div>
+
+      <div class="item active reptile">
+        <img src="img/frog.jpg" />
+        <h3>Frog</h3>
+      </div>
+
+      <div class="item active reptile">
+        <img src="img/lizard.jpg" />
+        <h3>Lizard</h3>
+      </div>
+
+      <div class="item active fish">
+        <img src="img/purplefish.jpg" />
+        <h3>Purple Fish</h3>
+      </div>
+
+      <div class="item active mammal">
+        <img src="img/sheep.jpg" />
+        <h3>Sheep</h3>
+      </div>
+
+      <div class="item active mammal">
+        <img src="img/squirrel.jpg" />
+        <h3>Squirrel</h3>
+      </div>
+
+      <div class="item active reptile">
+        <img src="img/turtle.jpg" />
+        <h3>Turtle</h3>
+      </div>
+
+      <div class="item active mammal">
+        <img src="img/zebra.jpg" />
+        <h3>Zebra</h3>
+      </div>
+    </div>
+    </div>
+
+    <!-- the jQuery library. You need this to be able to use jQuery ($) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Your javascript should be called here -->
+    <script src="main.js"></script>
+  </body>
+
+</html>
